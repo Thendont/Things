@@ -1,0 +1,45 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "strasser/bf2/p2_ct/t_gloves_05_black_cs"
+	"$bumpmap" "strasser/bf2/p2_ct/t_gloves_05_nm"
+	//MaterialAdjustment
+	
+"$color2" "[0.8 0.8 0.8]"
+"$blendTintByBaseAlpha"	"1"
+"$PhongDisableHalfLambert" "1"
+
+	//"$phongtint" "[///RGB_VALUE///]"	
+
+	//TRANSPARENCY AND AO:
+
+	//"$additive" "1"
+	//"$translucent" "[///VALUE///]"
+	//"$alphatest" "[///VALUE///]"
+	//"$alphatestreference" "[///VALUE///]"
+
+	//"$ambientocclusion" "0"
+
+	//"$nocull" "////VALUE///"	
+
+	//"$normalmapalphaenvmapmask" "1" 	
+	//"$envmap" "env_cubemap"					
+	//"$envmaptint" "[0.04 0.04 0.04]"				
+ 	//"$envmapFresnel"  "[1.0] "
+
+	$lightwarptexture "models\MadIvan18\SW\BF2\Shared/lightwarp_soft"
+	//"$phongwarptexture"		""
+	//"$phongexponent" "///NUMBER_VALUE///"	
+
+	"$rimlight" "1"
+	"$rimlightboost" "0.35"
+	//"$rimmask" "1"
+
+	//IMPORTANT:
+
+	"$phong" "1"						
+	"$phongboost"	"2" 		
+	"$phongexponenttexture" "strasser/bf2/p2_ct/t_gloves_05_exp"  ///UV88, 0.8
+	"$phongfresnelranges"	"[0.05 0.35 1.25]"				
+	//"$PhongAlbedoTint" "1"
+
+}
